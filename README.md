@@ -4,7 +4,8 @@ Esse foi um projeto desenvolvido no aquecimento para o Crash Course da campus co
 
 Neste projeto criei uma aplicação de catálogo de filmes. Para isto, criei várias rotas, models, controllers e views.
 
-Escopo do Projeto
+# Escopo do Projeto:
+
 A aplicação é capaz de gerenciar cadastros de gêneros de filmes (como ação, romance, ficção científica etc), diretores e os filmes em si. Cada gênero deve ter um nome. Cada diretor deve ter um nome, nacionalidade, data de nascimento e gênero favorito. Por último, os filmes devem possuir título, ano de lançamento, sinopse, país de origem, duração (em minutos), diretor(a) e gênero.
 
 Os usuários são capazes de:
