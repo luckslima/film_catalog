@@ -1,0 +1,9 @@
+<h2>Filmes</h2>
+
+<dl>
+<% @films.each do |film| %>
+  <dt><%= link_to "#{film.name} (#{film.year})", film_path(film.id) %></dt>
+<% end %>
+</dl>
+
+<%= link_to 'Cadastrar Filme', new_film_path %>

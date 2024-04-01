@@ -1,0 +1,10 @@
+<h1><%= @film.name %></h1>
+
+    <dl>
+    <% film = @film  %>
+      <dd> <strong>Ano:</strong> <%= film.year %> </dd>
+      <dd> <strong>Gênero:</strong> <%= film.genre.name %> </dd>
+      <dd> <strong>Diretor:</strong> <%= film.director.name %> </dd>
+    </dl>
+
+    <%= link_to 'Editar Filme', edit_film_path %>

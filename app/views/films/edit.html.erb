@@ -1,0 +1,25 @@
+<h1> Editar filme </h1>
+
+
+<%= form_with model: @film do |f| %>
+    <div>
+    <%= f.label 'Nome:'%>
+    <%= f.text_field :name %> <br />
+    </div>
+
+    <div>
+    <%= f.label 'Ano:'%>
+    <%= f.text_field :year %> <br />
+    </div>
+
+    <%= f.label 'Gênero:'%>
+    <%= f.collection_select :genre_id, Genre.all, :id, :name %>
+
+    <%= f.label 'Diretor:'%>
+    <%= f.collection_select :director_id, Director.all, :id, :name %>
+
+    <div>
+    <%= f.submit 'Salvar'%>
+    </ div>
+
+<% end %>

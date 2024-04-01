@@ -1,0 +1,9 @@
+<h1><%= @director.name %></h1>
+
+<dl>
+<% @films.each do |film| %>
+  <dt><%= link_to film.name, film_path(film.id) %></dt>
+<% end %>
+</dl>
+
+<%= link_to 'Editar Diretor', edit_director_path(@director) %>
