@@ -1,4 +1,4 @@
-# Cátalogo de Filmes
+# Catálogo de Filmes
 
 Esse foi um projeto desenvolvido no aquecimento para o Crash Course da campus code. Nele pude aprender e exercitar o Ruby on Rails.
 
